@@ -3,10 +3,6 @@ PIPELINE_SWITCH:
 FEATURE_SET_VARS: 
   IMPUTATION: 'Linear'
   MIN_THRESHOLD: 5
-PANDAS: 
-  WEIGHT: 80
-  HEIGHT: 180
-  CONTROL: False
 FOLDERS:
   DATA: 'data'
   RAW_FEATURESET: 'raw_featureset'
@@ -17,5 +13,6 @@ FEATURE_SET:
   SPLIT_LABEL_NAME: 'HeartDisease'
   FEATURESET_EXCEL: 'Data_featureset.xlsx'
   LABELS_EXCEL: 'Data_labelset.xlsx'
-  POSTPROCESSING_STEPS: 
+  POST_PROCESSED_EXCEL: 'Post_processed_data_featureset.xlsx'
+  POSTPROCESSING_STEPS:
     DATA_IMPUTATION: True
