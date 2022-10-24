@@ -1,0 +1,21 @@
+PIPELINE_SWITCH:
+  PIPELINE_TEST: False
+FEATURE_SET_VARS: 
+  IMPUTATION: 'Linear'
+  MIN_THRESHOLD: 5
+PANDAS: 
+  WEIGHT: 80
+  HEIGHT: 180
+  CONTROL: False
+FOLDERS:
+  DATA: 'data'
+  RAW_FEATURESET: 'raw_featureset'
+  TEMPORAL: 'temporal_data'
+  POST_PROCESSED_FEATURESET: 'post_processed_featureset'
+FEATURE_SET:
+  RAW_FEATURESET_EXCEL: 'Datos.xlsx'
+  SPLIT_LABEL_NAME: 'HeartDisease'
+  FEATURESET_EXCEL: 'Data_featureset.xlsx'
+  LABELS_EXCEL: 'Data_labelset.xlsx'
+  POSTPROCESSING_STEPS: 
+    DATA_IMPUTATION: True
