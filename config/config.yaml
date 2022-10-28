@@ -13,6 +13,12 @@ FEATURE_SET:
   SPLIT_LABEL_NAME: 'HeartDisease'
   FEATURESET_EXCEL: 'Data_featureset.xlsx'
   LABELS_EXCEL: 'Data_labelset.xlsx'
-  POST_PROCESSED_EXCEL: 'Post_processed_data_featureset.xlsx'
+  FEATURES_TRAIN: 'Train_featureset.xlsx'
+  FEATURES_TEST: 'Test_featureset.xlsx'
+  LABELS_TRAIN: 'Train_labelset.xlsx'
+  LABELS_TEST: 'Test_labelset.xlsx'
   POSTPROCESSING_STEPS:
-    DATA_IMPUTATION: True
+    NORMALIZATION: True
+    STANDARDIZATION: True
+  POST_PROCESSED_EXCEL: 'Post_processed_data_featureset.xlsx'
+
