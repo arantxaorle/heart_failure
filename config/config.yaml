@@ -17,8 +17,8 @@ FEATURE_SET:
   FEATURES_TEST: 'Test_featureset.xlsx'
   LABELS_TRAIN: 'Train_labelset.xlsx'
   LABELS_TEST: 'Test_labelset.xlsx'
+  POST_PROCESSED_EXCEL: 'Post_processed_featureset.xlsx'
   POSTPROCESSING_STEPS:
-    NORMALIZATION: True
-    STANDARDIZATION: True
-  POST_PROCESSED_EXCEL: 'Post_processed_data_featureset.xlsx'
-
+    STANDARDIZATION: False
+    NORMALIZATION: False
+    ONE_HOT_ENCODING: True
