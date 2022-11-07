@@ -7,7 +7,8 @@ FOLDERS:
   DATA: 'data'
   RAW_FEATURESET: 'raw_featureset'
   TEMPORAL: 'temporal_data'
-  POST_PROCESSED_FEATURESET: 'post_processed_featureset'
+  POST_PROCESSED_TRAIN_SET: 'post_processed_featureset'
+  POST_PROCESSED_TEST_SET: 'post_processed_testset'
 FEATURE_SET:
   RAW_FEATURESET_EXCEL: 'Datos.xlsx'
   SPLIT_LABEL_NAME: 'HeartDisease'
@@ -17,7 +18,8 @@ FEATURE_SET:
   FEATURES_TEST: 'Test_featureset.xlsx'
   LABELS_TRAIN: 'Train_labelset.xlsx'
   LABELS_TEST: 'Test_labelset.xlsx'
-  POST_PROCESSED_EXCEL: 'Post_processed_featureset.xlsx'
+  POST_PROCESSED_TRAIN_EXCEL: 'Post_processed_train_featureset.xlsx'
+  POST_PROCESSED_TEST_EXCEL: 'Post_processed_test_featureset.xlsx'
   POSTPROCESSING_STEPS:
     STANDARDIZATION: True
     NORMALIZATION: False
